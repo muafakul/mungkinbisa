@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_suma"
+            android:icon="@drawable/ic_suma"
+            android:title="Suma" />
+        <item
+            android:id="@+id/nav_resta"
+            android:icon="@drawable/ic_resta"
+            android:title="Resta" />
+        <item
+            android:id="@+id/nav_multiplicacion"
+            android:icon="@drawable/ic_multi"
+            android:title="Multiplicacion" />
+        <item
+            android:id="@+id/nav_divicion"
+            android:icon="@drawable/ic_division"
+            android:title="Divicion" />
+    </group>
+
+    <item android:title="Informacion">
+        <menu>
+            <item
+                android:id="@+id/nav_info"
+                android:icon="@drawable/ic_info"
+                android:title="Creado por..." />
+        </menu>
+    </item>
+
+</menu>
